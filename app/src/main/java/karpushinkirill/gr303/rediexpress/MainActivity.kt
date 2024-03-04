@@ -11,10 +11,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonNext = findViewById<Button>(R.id.buttonSignUp)
+        val buttonSkip = findViewById<Button>(R.id.buttonSkip)
 
         buttonNext.setOnClickListener()
         {
             startActivity(Intent(this, MainActivity2::class.java).apply {startActivity(intent)})
+            finish()
+        }
+
+        buttonSkip.setOnClickListener()
+        {
+            startActivity(Intent(this, SignUp::class.java).apply {startActivity(intent)})
             finish()
         }
     }

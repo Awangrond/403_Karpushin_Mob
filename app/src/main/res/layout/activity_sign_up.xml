@@ -86,10 +86,10 @@
         android:layout_marginTop="10dp"
         android:text="Email address"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextPassword"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -107,7 +107,7 @@
         android:layout_marginTop="10dp"
         android:text="Phone number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMail" />
 
     <TextView
         android:id="@+id/textView4"
@@ -141,7 +141,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextMail"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
